@@ -1,0 +1,104 @@
+@import url(static.css);
+/*内页顶部导航*/
+.topnav{ height:35px; text-align:left; padding-left:20px; text-align:left; line-height:35px; color:#a5a5a5; font-size:12px;font-family:Verdana, Geneva, sans-serif; background:#fff; border-bottom:1px solid #e1e6eb}
+.topnav a{ margin-left:5px; margin-right:5px; font-size:13px; color:#8796b1; font-family:"微软雅黑" }
+.topnav a.home{ margin-left:0; padding-left:12px; border-left:#88b7e0 solid 2px; color:#666;}
+.cont_info{ padding:10px 15px;}
+
+.tab_txt{ border:1px solid #e1e6eb; padding-bottom:10px;}
+.tab_tit{ line-height:35px; height:35px; background:#f5f6fa; text-align:left; padding-left:15px; font-size:13px; color:#74829d;border-bottom:1px solid #e1e6eb; letter-spacing:2px;}
+
+.info_foot{ padding:7px 12px; line-height:26px; text-align:left; color:#9CACAF; border:1px solid #e1e6eb; font-size:14px; font-family:Arial, Helvetica, sans-serif; margin-top:10px;letter-spacing:1px}
+.ver_tab,.FW_TAB{ margin-top:10px; margin-bottom:10px;}
+.ver_tab tr td{ text-align:left; height:30px; color:#4b4b4b;}
+.ver_tab tr td table{ width:auto; margin-left:0; margin-right:auto;}
+.ver_tab tr td table tr td{ width:auto}
+.ver_tab tr td.STYLE3{ text-align:right}
+.ver_tab tr td.pl5{ padding-left:5px;}
+.FW_TAB tr td{height:27px; color:#4b4b4b;}
+.btn{ width:80px; height:30px; border:0; line-height:29px;  background:#0099cc; color:#fff}
+.btn:hover{ background:#28b5d6}
+.seo_desc{background: #F2F2F2; border: 1px solid #dcdcdc; color: #666666; margin-top:10px; margin-bottom:20px; padding:20px; text-align:left; line-height:25px; margin-left:5px; margin-right:auto; width:88% }
+/*Dtree*/
+.dtree {font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	font-size: 11px;color: #666;white-space: nowrap; text-align:left; font-size:12px;}
+.dtree img {border: 0px;vertical-align: middle;}
+.dtree a {color: #333;text-decoration: none;}
+.dtree a.node, .dtree a.nodeSel {white-space: nowrap;padding: 1px 2px 1px 2px;}
+.dtree a.node:hover, .dtree a.nodeSel:hover {color: #333;text-decoration: underline;}
+.dtree a.nodeSel {background-color: #c0d2ec;}
+.dtree .clip {overflow: hidden;}
+.w_dtree{ padding-left:20px;}
+.dTreeNode{ height:18px; line-height:18px; color:#666}
+/*Dtree*/
+.s_tab tr  td{ height:30px;}
+.input1{ padding:5px; width:120px; height:18px; line-height:18px; border:#dcdcdc solid 1px; color:#4b4b4b; font-size:12px; font-family:"微软雅黑";}
+.input1-bor{padding: 5px; width:120px; height:18px; line-height:18px; border:#dcdcdc solid 1px; color:#4b4b4b;font-size:12px; font-family:"微软雅黑";}
+.calendar{ background:url(../images/calendar.png) right center no-repeat;}
+
+.list1{-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px;width:250px; height:30px; line-height:30px;border:#dcdcdc solid 1px; color:#4b4b4b;}
+.in_p20{ padding:3px 20px;}
+.info_tab{ margin-top:10px;}
+.info_tab tr td{ padding-top:3px; padding-bottom:3px; color:#4b4b4b;}
+.info_tab tr td table{ width:auto;}
+.info_tab tr td table tr td{ padding-top:0; padding-bottom:0}
+.meun_tab,.db_div{ width:98%; margin-left:auto; margin-right:auto}
+.meun_tab table tr td{ height:50px; color:#666; font-size:13px;}
+#act_info{ font-size:13px;}
+#act_info img { vertical-align:middle}
+
+.paged {height:25px;line-height:25px;margin-left:auto; margin-right: auto;padding-bottom:8px; padding-top: 12px;text-align: right;width: 98%;}
+.paged a,.paged span{ border: 1px solid #E7E7E7;color: #4676AA; margin-left: 4px;  padding: 5px 10px;transition: background 0.3s  ease-in-out;-webkit-transition: background 0.3s  ease-in-out;transition: color 0.3s  ease-in-out;-webkit-transition: color 0.3s  ease-in-out;}
+.paged a:hover,.paged span.current,.paged a.current{ background:#ccc; color:#fff}.paged a.desc:hover{ background:none;color: #4676AA;}
+
+.siteup_tab{ margin-top:15px;}
+.siteup_tab tr td{ padding-top:3px; padding-bottom:3px;}
+.info_btn tr td{ padding-bottom:25px;}
+#treeboxbox_tree table tr td{ line-height:18px;}
+.xtree_tab{ width:100%; padding-bottom:10px;}
+.xtree_tab tr td{ padding-top:2px; padding-bottom:2px; font-size:12px; color:#4b4b4b}
+.list-div{  margin-left:auto; margin-right:auto;background: #F2F2F2; border: 1px solid #aaa; color: #666666;-moz-border-radius: 4px;-webkit-border-radius: 4px;border-radius:4px; padding:5px 10px}
+.xtree_width{ padding:10px}
+#treeboxbox_tree tr td a,#treeboxbox_tree tr td{ color:#4b4b4b; font-size:12px;}
+#msg font,#msg{ font-size:12px; font-family:"宋体"; }#msg{color:#666}
+.standartTreeRow{ text-align:left}
+.s_tabel{ width:100%}
+.info_tab tr td .tab_pirce {width:100%}
+.info_tab tr td .tab_pirce thead th {padding:0; height:35px; text-align:center; border-bottom: #aaaaaa solid 1px; color:#4b4b4b}
+.info_tab tr td .tab_pirce tbody tr td { padding:0; height:30px; text-align:center;border-bottom:#ddd solid 1px;border-right:#ddd solid 1px;}
+.info_tab tr td .tab_pirce tbody tr.last td { border-bottom:0}
+.info_tab tr td .tab_pirce tbody tr td.last {border-right:0}
+.right-span{ float:right; margin-right:5px; font-size:12px;}
+.right-span font{ font-size:12px;}
+/*批量上传*/
+
+.info_tab tr td table.tbl2{ width:500px; border-top:#9cF solid 1px; border-left:#9cF solid 1px; margin-top:10px; border-right:#9cF solid 1px;}  
+.tbl2 tr td,.tbl2 tr th{ border-bottom:#9cF solid 1px; height:50px;}  
+.tbl2 tr th{ text-align:center}
+.tbl2 tr td a,.tbl2 tr th a{ color:#666;}
+.tbl2 tr th img{ width:40px; height:40px;}
+.tbl2 tr th.c{ width:50px; padding-right:30px}
+.tbl2 tr td.o{ text-align:right; padding-right:15px;}
+.dhxtree_dhx_skyblue{ padding:10px; margin-left:0}
+
+.export{ float:right; display:block; width:90px; text-align:center; height:29px; line-height:29px; color:#7b99c5; text-decoration:underline; font-weight:bold; font-family:Verdana; font-size:12px}
+
+/*批量上传2*/
+.pl_topdiv{ height:30px; position:relative; }
+.pl_hit{ position:absolute; left:105px; top:3px; width:420px;background:#f0f0f0; height:30px; display:none; border-top-left-radius:5px; border-top-right-radius:5px; z-index:1}
+.progressName{ float:left; height:25px; line-height:25px; padding-left:12px; font-weight:bold; color:#888}
+.progressBarStatus{ float:left; padding-left:8px;height:25px; line-height:25px;font-weight:bold; color:#888}
+#thumbnails{ width:525px; background:#f0f0f0;border-top-left-radius:5px;border-bottom-left-radius:5px; border-bottom-right-radius:5px;}
+.pic_list li{ padding:12px; padding-top:15px; padding-right:0; width:90px; height:90px; float:left; position:relative}
+.pic_list li .button{ position:absolute; top:4px; right:-12px; cursor:pointer}
+.progressjd{ height:2px; font-size:0; line-height:0; position:absolute; bottom:0px; left:115px; background:#06f; z-index:2}
+/*修改上传按钮*/
+.vmupload{width:80px; height:80px; margin-right:20px; float:left; position:relative; text-align:center;border:#ccc dashed 2px;background:url(../images/fileimg.jpg) center center no-repeat; z-index:0}
+.vmsame{width:100%; height:80px; position:absolute; left:0;top:0;overflow:hidden; z-index:1}
+.vmupload input{position:absolute;right:0;top:0;height:80px;opacity:0;filter:alpha(opacity:0); z-index:3}
+.vmuptxt{ position:absolute; left:0; height:40px; top:81px; width:100%; background:#000;opacity:0.7;filter:alpha(opacity:70); z-index:2;transition: top 0.2s  ease-in-out;-webkit-transition: top 0.2s  ease-in-out}
+.vmupimg{ width:100%; height:100%; display:none}
+.vmupname,.vmupsize{ padding-top:4px; height:13px; line-height:13px; font-size:12px; font-family:"宋体"; color:#fff; text-align:center}
+.vmupname{ letter-spacing:2px;}
+.vmupload:hover .vmuptxt{ top:40px;}
+.vmupclose{ position:absolute; top:-12px; right:-15px; position:absolute; display:none; cursor:pointer; z-index:4}
+.vmimgdesc{ height:66px; float:left; padding:7px 15px; background:#f1f1f1; color:#99F; line-height:22px; letter-spacing:1px; border:#CCC dashed 2px}

@@ -1,0 +1,25 @@
+<include file="Index:Template:header" info="{$info}" tip="1" nav="{$nav}"/>
+<!--中间开始-->
+<div class="midinfo fixed">
+<!--左侧开始-->
+<div class="midleft">
+<ul id="newslist">
+
+<volist name="list" id="vo" empty="暂无数据">
+<li rel="{$vo['id']}">
+<div class="mltit"><a href="{:U('/Home/Index/info',array('id'=>$vo['id']))}" title="{$vo.newtitle}">{$vo.newtitle}</a></div>
+<div class="mltip"><span class="mlman">{$vo['putman']}</span><span class="mltime">{$vo['addtime']|strtotime|date='Y年m月d日',###}</span><span class="mlhit">浏览<font>{$vo['hit']}</font>次</span></div>
+<div class="mldesc">{$vo['newdesc']}</div>
+</li>
+</volist>
+
+
+</ul>
+
+{$page}
+</div>
+<!--左侧结束-->
+<include file="Index:Template:righter" rdata="{$rdata}" show="1"/>
+</div>
+<!--中间结束-->
+<include file="Index:Template:footer"/>

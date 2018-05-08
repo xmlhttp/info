@@ -1,0 +1,14 @@
+.fixed:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.fixed{display:block;}
+.fixed{min-height:1%;}
+* html .fixed{height:1%;}
+body{margin:0;padding:0 0 0 0;font-size:12px;line-height:22px;font-family:"微软雅黑"; text-align:center; background:#fff; }
+body a{outline:none;blr:expression(this.onFocus=this.blur());text-decoration:none;}
+form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}input,select{font-size:12px;line-height:16px;}img{border:0;}ul,li{list-style-type:none;}
+a{ color:#f8db6a; cursor:pointer}
+table{ border-collapse:collapse; width:100%; padding:0;}table tr td,table tr th{border-collapse:collapse; padding:0; color:#4b4b4b}
+#act_info span{ font-size:12px; font-family:"宋体"; padding-top:2px}
+.msgnor{ padding:2px 0px 3px 2px;}
+.msgload{ padding: 2px 0 3px 21px; text-align:left; color:#787878; background:url(../images/msg/loading.gif) left  center no-repeat}
+.msgerr{ padding: 2px 0 3px 21px; text-align:left; color:#ff3c00; background:url(../images/msg/re.png) left  2px no-repeat}
+.msgright{ padding: 2px 0 3px 21px; text-align:left; color:#748793;background:url(../images/msg/re.png) left -26px no-repeat}

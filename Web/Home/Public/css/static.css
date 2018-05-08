@@ -1,0 +1,86 @@
+﻿.fixed:after{content:"";display:block;height:0;clear:both;visibility:hidden}.fixed{display:block}.fixed{min-height:1%}* html .fixed{height:1%}body{overflow-x:hidden;background:#fff;font-size:12px}a,b,body,font,form,h1,h2,h3,h4,h5,h6,input,li,p,select,span,table,td,th,tr,ul{font-family:'宋体';margin:0;padding:0;color:#565656}body,font{line-height:22px;text-align:center}body a{outline:0;blr:expression(this.onFocus=this.blur());text-decoration:none;cursor:pointer}input,select{line-height:16px;outline:0}li,span,ul{list-style-type:none}table{width:100%;border-collapse:collapse}img{border:0}
+body{ background:#f0f3f6}
+
+.topbg{ height:50px; padding-top:5px; background:#323232}
+.topinfo{ width:1200px; margin-left:auto; margin-right:auto}
+.logo{ float:left; margin-top:5px; margin-left:5px}
+.topnav{ float:right; padding-top:15px}
+.topnav a{ color:#fff; font-size:16px; letter-spacing:3px; margin-right:10px; margin-left:10px; padding:2px 0 2px 1px;border-bottom:#323232 solid 1px;transition:all 0.3s linear}
+.topnav a:hover,.topnav a.active{ border-bottom:#fd325f solid 1px; color:#fd325f}
+.foot{ background:#323232; padding:20px; font-size:14px; text-align:center; color:#ffffff}
+.foot a{color:#fff;}.foot a:hover{ color:#f00; text-decoration:underline}
+.foot span{ font-family:Verdana, Geneva, sans-serif; color:#fff; margin-left:2px; margin-right:2px}
+
+.midinfo{width:1200px; padding:15px 0 5px; margin-left:auto; margin-right:auto}
+.midleft,.midleft1{ float:left; width:900px;}
+.midleft li{ padding:20px; background:#fff; border-bottom:#999 solid 1px; margin-bottom:10px;cursor:pointer;transition: border-bottom 0.3s  ease-in-out;}
+.midleft li:hover{border-bottom:#f00 solid 1px}
+.mltit{ text-align:left; line-height:23px; padding-bottom:8px}
+.mltit a{ color:#4b4b4b; font-size:16px; letter-spacing:2px}
+.mltit a:hover{ color:#069; text-decoration:underline}
+.mltip{ text-align:left; line-height:23px; padding-bottom:8px}
+.mlman,.mltime,.mltype,.mlhit{ background:url(../images/ico.png) -60px -53px  no-repeat; font-size:15px; color:#666; padding-left:22px; padding-top:1px; letter-spacing:1px}
+.mltime{margin-left:25px; background-position:-60px -79px}
+.mltype{margin-left:25px;background-position:-59px -104px}
+.mlhit{margin-left:25px;background-position:-59px -177px}
+.mlhit font{ color:#f33; font-family:Verdana, Geneva, sans-serif;padding-left:1px; padding-right:3px; letter-spacing:0}
+
+.mldesc{ font-size:14px; letter-spacing:1px; color:#666; line-height:22px; text-align:left}
+
+
+.mrsearch{ background:#fff; padding:20px 0px; margin-bottom:15px; text-align:center}
+.mrsearch input{ width:250px; border:#ccc solid 1px; height:16px; padding:6px 4px; background:url(../images/ico.png) 235px -42px no-repeat; font-size:13px; color:#4b4b4b;}
+.mrsearch input:focus{ border:#9CF solid 1px; box-shadow:0 0 10px #9CF}
+.midright{ float:right; width:285px;}
+.mrbg{ background:#fff; margin-bottom:15px}
+.mrtit{font-size:14px; line-height:23px; border-left:#06F solid 3px; text-align:left; padding:10px 0px 2px 15px; letter-spacing:1px}
+.mrlist{ padding:8px 12px; }
+.mrlist li{ padding:4px 2px 2px 2px; line-height:25px; text-align:left; border-bottom:#ccc dashed 1px}
+.mrlist li a{ color:#666; font-size:14px; letter-spacing:1px;}
+.mrlist li a:hover{ color:#09F}
+
+.mrconenct{ text-align:center; padding:20px 0}
+.mrconenct a{ border:#cde solid 2px; width:80px; height:30px; text-align:center; line-height:30px; color:#888; font-size:14px; border-radius:4px; padding:6px 18px; margin-left:8px; margin-right:8px; box-shadow:0 0 5px #abc}
+.mrconenct a:hover{border:#fb9 solid 2px;box-shadow:0 0 5px #f96}
+
+.mrdas{ padding:15px 0; text-align:center}
+.mrlink{ padding:10px; text-align:center}
+.mrlink a{  float:left; margin-left:5px; margin-right:5px; font-size:14px; letter-spacing:1px; color:#666; line-height:29px}
+.mrlink a:hover{ color:#f96; text-decoration:underline}
+
+.mlinfotit{ font-size:16px; padding:30px 20px 20px; font-weight:bold; color:#666}
+.mltip1{ border-bottom:#ccc dashed 1px; padding-bottom:6px; width:854px; margin-left:auto; margin-right:auto; padding-left:3px; padding-right:3px}
+.mlview{ padding:10px 20px}
+.mlview p{ font-size:13px; color:#4b4b4b; letter-spacing:1px; text-align:left; line-height:23px}
+.mlview .code{ background:#eee; padding:8px 15px; margin-top:6px; margin-bottom:6px}
+.mlview .code p{ text-indent:0; letter-spacing:0; font-family:Verdana, Geneva, sans-serif}
+.idesc{ text-align:right; padding-right:20px; line-height:24px; color:#888; font-size:13px; padding-top:10px; letter-spacing:1px; padding-bottom:20px}
+.idesc a{ font-family:Verdana, Geneva, sans-serif; margin-right:5px; color:#888; font-size:14px; letter-spacing:0}
+.idesc a:hover{ color:#f96; text-decoration:underline}
+.midbg{ background:#fff}
+
+.midtxt{ margin-top:15px; padding:20px;}
+.midarea{ width:850px; padding:4px; border:#ccc solid 1px; line-height:22px; color:#666; letter-spacing:1px; font-size:13px; height:110px;resize:none;t}
+.midarea:focus{ border:#9CF solid 1px; box-shadow:0 0 10px #9CF}
+
+.midmsg{ padding-top:10px; line-height:23px}
+.msgtip{ float:left; width:200px; text-align:left}
+.msgtool{ float:right; width:283px}
+.msgewm{ width:80px; border:#ccc solid 1px; vertical-align:middle; float:left}
+.msginput{ width:80px; height:17px; border:#ccc solid 1px; float:left; margin-left:5px; padding:4px}
+.msginput:focus{ border:#9CF solid 1px; box-shadow:0 0 10px #9CF}
+.msgbtn{ width:100px; background:#06F; color:#fff; float:left; height:27px; border:0; line-height:25px; margin-left:5px; cursor:pointer}
+
+.qutop{ text-align:left; border-bottom:#ccc dashed 1px; padding-bottom:4px; padding-top:10px}
+.qulou,.qutime{ background:url(../images/ico.png) -60px -127px  no-repeat; padding:2px 0 2px 22px; color:#4b4b4b; font-size:13px;}
+.qutime{background:url(../images/ico.png) -60px -150px no-repeat; margin-left:20px; font-family:Verdana, Geneva, sans-serif}
+.qutxt{ padding:5px 3px; border-bottom:#cba solid 1px;}
+.qutxt p{ line-height:25px; text-align:left}
+
+.search{ width:1168px; border:#ccc solid 1px; background:#FFd; line-height:30px; padding:5px 15px; margin-left:auto; margin-right:auto; margin-top:10px; text-align:left; font-size:13px; color:#666; letter-spacing:1px}
+.search span{ color:#f00}
+
+.t_load{ padding: 2px 0 3px 21px; text-align:left; color:#787878; background:url(../images/ico_load.gif) left  center no-repeat; line-height:25px}
+.t_err{ padding: 2px 0 3px 21px; text-align:left; color:#ff3c00; background:url(../images/ico.png) -60px  0px no-repeat; line-height:25px}
+.t_right{ padding: 2px 0 3px 21px; text-align:left; color:#748793;background:url(../images/ico.png) -60px -26px no-repeat; line-height:25px}
+.paged{height:20px;padding-top:15px;padding-bottom:10px; height:32px}.paged a{display:inline-block;padding:3px 10px;border:#CCC solid 1px;color:#666;font-size:14px;border-radius:3px;font-family:Verdana,Geneva,sans-serif;margin-left:3px;margin-right:3px;box-shadow:0 0 8px #ddd;transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out}.paged a.current,.paged a:hover{background:#fd325f;color:#fff;border:#fd325f solid 1px;box-shadow:0 0 8px #fd325f}.paged a.current{cursor:default}.paged a.next,.paged a.prev{font-family:'Microsoft Yahei';letter-spacing:2px}.paged a.prestop,.paged a.prestop:hover{background:#ddd;border:#CCC solid 1px;color:#666;box-shadow:0 0 8px #ddd;cursor:default}

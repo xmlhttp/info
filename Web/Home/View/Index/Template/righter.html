@@ -1,0 +1,59 @@
+<!--右侧开始-->
+<div class="midright">
+
+<div class="mrsearch">
+<input type="text" placeholder="搜索..." id="search" />
+</div>
+<if condition="[show] eq 1">
+<div class="mrbg">
+<div class="mrtit">最新文章</div>
+<ul class="mrlist">
+<volist name="rdata.news" id="vo">
+<li><a href="{:U('/Home/Index/info',array('id'=>$vo['id']))}" title="{$vo.newtitle}" >{$vo.newtitle}</a></li>
+</volist>
+</ul>
+</div>
+</if> 
+
+<div class="mrbg">
+<div class="mrtit">最新评论</div>
+<ul class="mrlist">
+<volist name="rdata.comment" id="vo">
+<li><a href="{:U('/Home/Index/info',array('id'=>$vo['id']))}" title="{$vo.newtitle}" >{$vo.newtitle}</a></li>
+</volist>
+</ul>
+</div>
+
+<div class="mrbg">
+<div class="mrtit">联系作者</div>
+<div class="mrconenct">
+<div><a href='http://wpa.qq.com/msgrd?v=1&uin=469100943&site=qq&menu=no' target='qqifr' title="联系QQ" style=" padding:6px 22px">联系QQ</a>
+<a href='//shang.qq.com/wpa/qunwpa?idkey=8eee13c1d759e2617cb3de5498c6f34f817d4a54740decf2c5b83ec48e18ba6f' target='qqifr' title="STM32交流群">STM32交流群</a>
+</div>
+<div style="padding-top:15px"><a href="//shang.qq.com/wpa/qunwpa?idkey=c8841592ec83ded54df60142143f896c7eb1da31686a48eb85dbd24a22c49c02" title="Thinkphp群" target='qqifr'>Thinkphp群</a>
+<a href="//shang.qq.com/wpa/qunwpa?idkey=0d6f955c457a6f5e6c3ae891792ed6cb4af1af6ceddda178848f992a31a62ea9" title="小程序群" target='qqifr'>小程序群</a>
+</div>
+
+
+</div>
+</div>
+
+<div class="mrbg">
+<div class="mrtit">打赏作者</div>
+<div class="mrdas">
+<img src="__IMG__/ewm.png" />
+</div>
+</div>
+
+<div class="mrbg">
+<div class="mrtit">友情链接</div>
+<div class="mrlink fixed">
+<volist name="rdata.link" id="vo">
+<a href="{$vo.newadd}" title="{$vo.newtitle}" target="_blank">{$vo.newtitle}</a>
+</volist>
+</div>
+</div>
+
+</div>
+<iframe name="qqifr" style="display:none" id="qqiframe"></iframe>
+<!--右侧结束-->

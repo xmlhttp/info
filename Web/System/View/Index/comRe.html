@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Present by vmuui.com 管理中心 - 信息列表</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" /> 
+    <link href="__CSS__/main.css" type="text/css" rel="stylesheet">
+	<link rel="STYLESHEET" type="text/css" href="__TOOL__/codebase/dhtmlxgrid.css">
+	<script  src="/Public/jquery.js"></script>
+	<script  src="__TOOL__/codebase/dhtmlxgrid.js"></script>
+	<script type="text/javascript" src="__TOOL__/page/jquery.pagination.js"></script>
+	<script  src="__JS__/System.js"></script>
+<style>
+     body{ overflow-y:hidden}
+</style>
+</head>
+<body>
+<!--顶部导航开始-->
+<div class="topnav">
+<a  href="/System.php?s=/System/ManagerPage/BaseInfo.html" class="home">首页</a>><a href="/System.php?s=/System/Companyall">信息管理</a>><a href="javascript:void(0)">信息列表</a>
+</div>
+<!--顶部导航结束-->
+<div class="cont_info">
+
+<div class="tab_txt">
+<div class="tab_tit">信息列表</div>
+
+<div class="meun_tab">
+
+  <table  width="95%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="45" align="right">主题：</td>
+     
+        <td align="left" style="color:#09F">{$T["newtitle"]}
+        </td>
+      <td  align="right">
+      <input name="button" type=button class="btn" onClick="delete_items()" value="删除选中" /> </td>
+    </tr>
+  </table>
+</div>
+<div class="db_div" >
+<div id="gridbox" width="100%"></div>
+</div>
+<div id="setpage" class="paged" >
+</div>
+</div>
+<DIV id="DIV1" class="info_foot">
+  Action Info: <span id=act_info style="display:inline"></span>
+</DIV>
+</div>
+<script>
+var typeid={$T["id"]};
+var	myGridnum=4, //选中框所在的下标
+	myGridmode='/System.php?s=/System/ComRe/', //模块地址
+	myGrid = new dhtmlXGridObject('gridbox'); //新建列表
+	myGrid.setImagePath("__GRIDIMG__");
+	myGrid.setHeader("ID,信息内容,加入时间,启用,<a href='javascript:void(0)' onclick='chk_all()'>全选 </a>");
+	myGrid.setInitWidths("80,*,160,80,80");
+	myGrid.setColAlign("center,left,center,center,center");
+	myGrid.setColTypes("ro,txt,ro,ch,ch");
+	myGrid.setColSorting("int,str,str,str,str");
+	myGrid.attachEvent("onEditCell",doOnCellEdit);
+	myGrid.attachEvent("onCheckbox",doOnCheckEdit);
+	myGrid.init();
+
+	
+</script>
+</body>
+</html>
