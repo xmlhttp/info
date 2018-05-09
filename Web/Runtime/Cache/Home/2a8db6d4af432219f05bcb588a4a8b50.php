@@ -38,7 +38,7 @@
 </div>
 
 <div class="mrbg">
-<div class="mrtit">联系作者</div>
+<div class="mrtit">联系我们</div>
 <div class="mrconenct">
 <div><a href='http://wpa.qq.com/msgrd?v=1&uin=469100943&site=qq&menu=no' target='qqifr' title="联系QQ" style=" padding:6px 22px">联系QQ</a>
 <a href='//shang.qq.com/wpa/qunwpa?idkey=8eee13c1d759e2617cb3de5498c6f34f817d4a54740decf2c5b83ec48e18ba6f' target='qqifr' title="STM32交流群">STM32交流群</a>
